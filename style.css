@@ -51,7 +51,7 @@ p {
 
 .main-section img {
     border-radius: 40px;
-    border: 5px solid #3882F6
+    border: 2px solid grey
 }
 
 .hero-text button {
@@ -170,5 +170,18 @@ footer {
 
 button:hover {
     cursor: pointer;
-    background-color: orange
+    background-color: orange;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+.main-section img:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
 }
